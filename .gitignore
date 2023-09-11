@@ -1,0 +1,10 @@
+.vscode/
+Library/
+Logs/
+Temp/
+UIElementsSchema/
+UserSettings/
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+My project.sln
+unitywavefunction.sln
