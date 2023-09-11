@@ -13,9 +13,9 @@ public class MyGrid : MonoBehaviour
 
     void Start() 
     {
-        for (int x = -(width/2); x < width/2; x++) 
+        for (int x = 0; x < width; x++) 
         {
-            for (int z = -(height/2); z < height/2; z++) 
+            for (int z = 0; z < height; z++) 
             {
                 Vector3 spawnpos = new Vector3(x * tilesize, 0, z * tilesize);
                 spawn(spawnpos);
